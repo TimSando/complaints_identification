@@ -1,3 +1,12 @@
+# downloaded data
+*.csv
+.kaggle/
+
+# VSCode stuff
+.vscode-server
+.devcontainer
+.bash_history
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

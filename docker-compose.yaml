@@ -1,0 +1,7 @@
+services:
+  complaints_model:
+    container_name: complaints
+    build: .
+    volumes:
+      - .:/opt/working
+    entrypoint: sleep 50000
